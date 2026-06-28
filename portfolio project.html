@@ -2,224 +2,188 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>mohammed's Portfolio</title>
-</head>
+    <title>Mohammed's Portfolio</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f1ea; 
+            color: #333333;
+            margin: 0;
+            padding: 20px;
+        }
 
-<body allign="center">
+        header {
+            background-color: #34495e; 
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
 
-<header>
-    <nav>
-        <a href="#">
-            <span>M</span>
-            <span>mohammed khader</span>
-        </a>
+        header h1 {
+            margin: 0 0 10px 0;
+        }
 
-        <h3>mohammed</h3>
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
 
-        <ul>
-            <li>
-                <a href="#home">Home</a>
-            </li>
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
 
-            <li>
-                <a href="#about">About Me</a>
-            </li>
+        nav a {
+            color: #ecc94b; 
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
+        nav a:hover {
+            text-decoration: underline;
+        }
 
-            <li>
-                <a href="#contact">Contact Me</a>
-            </li>
-        </ul>
-    </nav>
-    </header>
-    <main>
-        <h1>Mohammed Portfolio</h1>
-        <img 
-        src="photo_2026-04-20_09-13-44.jpg"
-        alt="image"
-        width="300"
-        class="Profile-img"
-        />
-        <img
-        src="photo_2026-04-20_09-25-13.jpg"
-        alt="image"
-        />
-        <img
-        src="photo_2026-04-20_09-29-09.jpg"
-        alt="image"
-        />
-        <p>
-            <b>Electrical and computer engineering</b>
-            <b>(Computer engineering focus area)</b>
-            BSc degree holder from Debre Berhan University
-        </p>
-        <a href="#about">
-            <span>scroll down</span>
-        </a>
+        main {
+            max-width: 700px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #dddddd;
+        }
 
-         <h2 align="center"> <span>About me</span>
-            </h2>
-            <img
-            src="photo_2026-04-20_10-00-27.jpg"
-            alt="image"
-            width="300"
-            />
-            <img
-            src="photo_2026-04-20_09-25-13.jpg"
-            alt="image"
-            />
-            <p>I am a motivated and dedicated individual with a strong interest in technology and problem-solving.
-               I enjoy learning new skills, especially in areas related to computer science, networking, and software development.</p>
-            <ul>
-                <li>
-                    <b> My skill :</b><br>
-                    <b>Programing language</b><br>
-                    ojango and bootstrap
-                </li>
-            </ul>
-            <a href="#contact">
-                contact me 
-            </a>
-            <h2>
-                <span>Serevice</span>
-            </h2>
+        section {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed #cccccc; 
+        }
 
-            <h2>Web Designer</h2>
-            <p>the red fox jumped over the lazy dog the red fox jumped over the lazy dog
-               the red fox jumped over the lazy dog the red fox jumped over the lazy dog
-            </p>
+        section:last-child {
+            border-bottom: none;
+        }
 
-            <h2>Develpoer</h2>
-            <p>the red fox jumped over the lazy dog the red fox jumped over the lazy dog
-               the red fox jumped over the lazy dog the red fox jumped over the lazy dog 
-            </p>
+        h2, h3 {
+            color: #34495e;
+            margin-top: 0;
+        }
 
-            <h2>Networking</h2>
-            <p>the red fox jumped over the lazy dog the red fox jumped over the lazy dog
-               the red fox jumped over the lazy dog the red fox jumped over the lazy dog 
-            </p>
-            <h2>Projects</h2>
-            <img
-            src="photo_2026-04-30_09-44-03.jpg"
-            alt="image"
-            width="400"
-            />
+       
+        ul {
+            padding-left: 20px;
+        }
 
-            <h3>Website</h3>
-            <h2>Stroke Management System</h2>
-            
-            <a href="">
-                View
-            </a><br>
-
-             <img
-            src="photo_2026-04-30_09-44-30.jpg"
-            alt="image"
-            width="400"
-            />
-
-            <h3>Website</h3>
-            <h2>Stroke Management System</h2>
-            
-            <a href="">
-                View
-            </a><br>
-
-            
-             <img
-            src="photo_2026-04-30_10-08-43.jpg"
-            alt="image"
-            width="400"
-            />
-
-            <h3>Website</h3>
-            <h2>Stroke Management System</h2>
-            
-            <a href="">
-                View
-            </a><br>
-
-            <h2>
-                <span>Contact Me</span>
-            </h2>
-
-            <p>the red fox jumped over the lazy dog the red fox jumped over the lazy dog
-               the red fox jumped over the lazy dog the red fox jumped over the lazy dog 
-            </p>
-
-            <p>the red fox jumped over the lazy dog the red fox jumped over the lazy dog
-               the red fox jumped over the lazy dog the red fox jumped over the lazy dog 
-            </p>
-
-            <h2>Send Me A Message</h2>
-
-            <form action="">
-                <input 
-                type="text"
-                required
-                placeholder="First Name"
-                />
-                <label>First Name</label>
-
-                <input
-                type="email"
-                required
-                placeholder="email"
-                />
-                <label>E-mail</label>
-
-                <input
-                type="text"
-                required
-                placeholder="subject"
-                />
-                <label>subject</label>
-
-                <textarea
-                    required
-                    placeholder="Message"
-                    >
-                </textarea>
-                <label>Message</label>
-
-                <button>
-                    Send Message
-                </button>
-
-
-            </form>
-            <img
-            src="photo_2026-04-20_09-25-13.jpg">
-
-            <p> does not send email</p>
-            <p>wrie me on my social media</p>
-
-
-            
+        li {
+            margin-bottom: 5px;
+        }
 
         
+        form {
+            margin-top: 15px;
+        }
 
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #cccccc;
+            box-sizing: border-box; 
+        }
+
+        button {
+            background-color: #34495e;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        button:hover {
+            background-color: #415b76;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #777777;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="home">
+        <h1>Mohammed Khader</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h3>About Me</h3>
+            <p>Hello, I am sharing my skills with the viewers.</p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>Python</li>
+                <li>Java</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>If anyone needs any help or wants me to help with any project then you can find me here.</p>
+            <p>Email: <a href="mailto:mohammed.khader@bitscollege.edu.et" style="color: #34495e; font-weight: bold;">mohammed.khader@bitscollege.edu.et</a></p>
+            
+            <form id="contactForm">
+                <div>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div>
+                    <label for="email">Your Email Address:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div>
+                    <label for="message">Message Details:</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
     </main>
+
     <footer>
-        <ul>
-            <li>
-                <a href="#home">Home</a>
-            </li>
-            <li>
-                <a href="About">About</a>
-            </li>
-            <li>
-                <a href="Projects">Projects</a>
-            </li>
-        </ul>
-        <span>
-            &copy; All rights reserved by
-            <a href=""> mohammed</a>
-        </span>
+        <p>&copy; 2026 Mohammed Khader. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            var userName = document.getElementById('name').value;
+            alert('Thank you, ' + userName + '. Your message has been processed!');
+            this.reset();
+        });
+    </script>
 
 </body>
 </html>
